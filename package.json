@@ -12,7 +12,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "electron ."
+    "test": "electron .",
     "build-win": "electron-packager . lolchampionoverview --platform=win32 --arch=x64 --overwrite"
   },
   "repository": {
