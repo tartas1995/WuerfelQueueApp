@@ -1,0 +1,28 @@
+{
+  "name": "wuerfelqueueapp",
+  "version": "1.0.0",
+  "description": "\"# W�rfelQueueApp\"",
+  "main": "app.js",
+  "dependencies": {
+    "electron": "^7.1.11",
+    "fs-extra": "^8.1.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "ws": "^7.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "electron ."
+    "build-win": "electron-packager . lolchampionoverview --platform=win32 --arch=x64 --overwrite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tartas1995/WuerfelQueueApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tartas1995/WuerfelQueueApp/issues"
+  },
+  "homepage": "https://github.com/tartas1995/WuerfelQueueApp#readme"
+}
